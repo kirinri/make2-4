@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0
+}
+
+.clear {
+    clear: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.li , .btn ,.close-modal ,.faqlist-item{
+    cursor: pointer;
+}
+
+/* エフェクト関係 */
+.btn:hover {
+    opacity: 1;
+}
+
+.li:hover{
+    opacity: 1;
+}
+
+
+/* ----------モーダル--------------- */
+.modal-wrapper {
+    background-color: rgba(65, 65, 65,0.5);
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.modal-window {
+    padding: 1rem;
+    width: 40%;
+    height: auto;
+    background-color: rgb(235, 235, 255);
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    padding-bottom: 5rem;
+    border-radius: 1rem;
+}
+
+.close-modal {
+    float: right;
+    margin-top: -2rem;
+    margin-right: -1rem;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.modal-container input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 80%;
+    border-radius: 2px;
+    padding: 0.8rem 0.3rem ;
+    font-size: 1rem;
+}
+
+.rbtn-login {
+    width: 80%;
+    margin-top: 1.5rem;
+    background-color: rgb(143, 162, 143);
+}
+
+
+/* --------------- */
+
+
+
+
+
+.logo {
+    height: 2rem;
+}
+
+header {
+    background-color: rgba(25, 21, 63, 0.7);
+    height: 4rem;
+    width:100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.container {
+    font-size: 8px;
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-left {
+    padding-top: 1rem;
+    float: left;
+    position: absolute;
+
+}
+
+.header-right {
+    float: right;
+    color: antiquewhite;
+    font-size: 1rem;
+}
+
+.menue-icon {
+    height: 4rem;
+    padding: 0.5rem 1rem 0 1rem;
+    background-color: rgb(156, 156, 167);
+    opacity: 0.9;
+    color:black;
+    font-size: 2rem;
+    display: none;
+    float: right;
+}
+
+.li {
+    height: 4rem;
+    float: left;
+    display: block;
+    margin-right: 1.5rem;
+    padding: 1rem 1rem 0 1rem;
+    color: white;
+    background-color: rgb(156, 156, 167);
+    opacity: 0.9;
+}
+
+.top-view {
+    background-image: url(images/top-image.png);
+    width: 100%;
+    background-size: cover;
+    padding: 8rem 0 3rem 0;
+    color: antiquewhite;
+}
+
+.opa {
+    opacity: 0.8;
+}
+
+.top-view h1 {
+    padding-top: 0.5rem;
+    font-size: 3rem;
+}
+
+.top-view p {
+    font-size: 1rem;
+}
+
+.btn-wrapper {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+.btn-register {
+    background-color: rgb(67, 186, 67);
+}
+.btn-facebook {
+    background-color: rgb(37, 97, 186);
+}
+
+.btn-twitter {
+    background-color: rgb(103, 188, 228);
+}
+
+
+/*高さの指定部分はclearを活用 */
+.lesson-view {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-color: rgb(233, 233, 233);
+}
+
+h2 {
+    padding: 1rem 0 3rem 0;
+    font-size: 1.5rem;
+    color: rgb(92, 87, 87);
+}
+
+.lesson {
+    width: 25%;
+    float: left;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 42%;
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+}
+
+.lesson-text{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 4rem ;
+    /* display: none; */
+}
+
+
+
+
+.bottom-view {
+    padding-top: 1rem;
+    border-bottom: 0.1rem solid rgba(108, 108, 108 ,0.2);
+    padding-bottom: 4rem;
+}
+
+.bottom-view p {
+    font-size: 1rem;
+}
+
+.btn-register2 {
+    display: block;
+    width: 30%;
+    margin: 3rem auto;
+    color: white;
+    background-color: rgb(49, 157, 91);
+    box-shadow: 2px 5px rgba(60, 60, 60, 0.9);
+    font-size: 1rem;
+}
+
+.btn-register2:active{
+    position: relative;
+    top: 5px;
+    left: 2px;
+    box-shadow: 0px 0px;
+}
+
+.fotter {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+
+
+/* .faq部分 */
+.faq-view {
+    width: 100%;
+    background-color: rgba(207, 220, 255,0.4);
+    padding: 2rem 0 4rem 0;
+}
+
+.faqlist{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.question {
+    font-size: 1rem;
+    margin-bottom:1rem ;
+    font-weight: bold;
+}
+
+.question span {
+    float: right;
+}
+
+.ans {
+    font-size: 0.8rem;
+    margin-bottom:1rem ;
+    display: none;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    color: rgb(91, 91, 91);
+}
+
+li {
+    border-bottom: 2px solid grey;
+    padding: 0.3rem 0;
+}

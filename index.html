@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロゲート模写</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img class = logo src="./images/progate-logo.png" alt="秘密">
+            </div>
+            <span class="menue-icon"><i class="fa fa-bars"></i></span>
+            <div class="header-right">
+                <div class = "li lesson-top" href="#lesson-view">レッスン</div>
+                <div class = "li register">新規登録</div>
+                <div class = "li login">ログイン</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1  -->
+    <div class="modal-wrapper login-modal">
+        <div class="modal-window">
+            <div class="close-modal">×</div>
+
+            <div class="modal-container modal-login">
+                <h3>Emailログイン</h3>
+                <input type="email" placeholder="メールアドレス">
+                <input type="password" placeholder="パスワード">
+                <div class="btn rbtn-login">ログイン</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2  -->
+    <div class="modal-wrapper register-modal">
+        <div class="modal-window">
+            <div class="close-modal">×</div>
+
+            <div class="modal-container modal-login">
+                <h2>Emailで新規登録</h2>
+                <input type="email" placeholder="メールアドレス">
+                <input type="password" placeholder="パスワード">
+                <div class="btn rbtn-login">新規登録</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <main>
+        <div class="top-view">
+            <div class="container">
+                <div class="opa">
+                    <h1>ラーン トゥ タイピング</h1>
+                    <h1>ラーン トゥ ビー クリエイティブ</h1>
+                    <p class="">プロゲートはオンラインタイピングサービスです。</p>
+                    <p>初心者にも優しい、スライドとレッスンであなたのスキルアップをサポートいたします。</p>
+                    <div class="btn-wrapper">
+                        <div class="btn btn-register register">
+                            新規登録はこちら
+                        </div>
+                        <p>or</p>
+                        <div class="btn btn-facebook">
+                            <span class="facebook-icon"><i class="fa fa-facebook"></i></span>
+                            Facebookで登録
+                        </div>
+                        <div class="btn btn-twitter">
+                            <span class="twitter-icon"><i class="fa fa-twitter"></i></span>
+                            Twitterで登録
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <div class="lesson-view" id ="lesson-view">
+            <div class="container">
+                <div class="heading">
+                    <h2>どれから学び始める？！</h2>
+                </div>
+
+                <div class="lessons">
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="images/green.png" alt="">
+                            <p>タイピング基礎</p>
+                        </div>
+                        <p class="lesson-text">ブラインドタッチの基本であるホームポジションを守ったままキーを打つことに慣れていきましょう。</p>
+                    </div>
+
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="images/yellow.png" alt="">
+                            <p>タイピング初級</p>
+                        </div>
+                        <p class="lesson-text">五十音の位置関係を徹底理解。</p>
+                    </div>
+
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="images/red.png" alt="">
+                            <p>タイピング中級</p>
+                        </div>
+                        <p class="lesson-text">脳内に一瞬にして入力文字に対する指の動かし方が浮かんでくることを目指します。</p>
+                    </div>
+
+                    <div class="lesson">
+                        <div class="lesson-icon">
+                            <img src="images/blue.png" alt="">
+                            <p>タイピング上級</p>
+                        </div>
+                        <p class="lesson-text">タイピングの効率化について学びます。</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="faq-view">
+            <div class="container">
+                <div class="heading">
+                    <h2>FAQ</h2>
+                </div>
+
+                <div class="faqlist">
+                    <ul>
+                        <li class="faqlist-item">
+                            <div class="question">
+                                Progateの公式キャラクターはなんですか？
+                                <span>+</span>
+                            </div>
+                            <div class="ans">
+                                にんじゃわんこといいます。忍者の格好をしたわんこです。ネコではありません。
+                            </div>
+                        </li>
+
+                        <li class="faqlist-item">
+                            <div class="question">
+                                にんじゃわんこはオスですか？それともメスですか？
+                                <span>+</span>
+                            </div>
+                            <div class="ans">
+                                コンプライアンスに違反しています。
+                            </div>
+                        </li>
+
+                        <li class="faqlist-item">
+                            <div class="question">
+                                にんじゃわんこは何歳ですか？
+                                <span>+</span>
+                            </div>
+                            <div class="ans">
+                                ３４歳です。
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="bottom-view">
+                <div class="heading">
+                    <h2>さあ、あなたもプロゲートで学んでみませんか？</h2>
+                </div>
+
+                <p>レッツ ラーン トゥ タイピング、ラーン トゥ ビー クリエイティブ</p>
+                <div class="btn btn-register2 register">早速登録する</div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer>
+        <div class="container">
+            <div class="fotter">
+                <img class = logo src="./images/progate-logo2.png" alt="">
+                <p>レッツ ラーン トゥ コード、ラーン トゥ ビー クリエイティブ</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src = "script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+@media (max-width:1000px) {
+
+    .header-right div{
+        display: none;
+    }
+
+    .menue-icon{
+        display: block;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .opa p {
+        text-align: left;
+    }
+
+
+    .btn-wrapper a, .btn-wrapper p{
+        text-align: center;
+    }
+
+
+    .btn {
+        width: 80%;
+    }    
+
+    .lesson {
+        width: 100%;
+        text-align: center;
+    }
+
+     .fotter {
+         text-align: center;
+
+     }   
+
+
+}
